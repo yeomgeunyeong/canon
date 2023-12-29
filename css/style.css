@@ -933,3 +933,192 @@
 .link_2{background: url("../images/link2_bg02.png") no-repeat left center;}
 .link_3{background: url("../images/link2_bg03.png") no-repeat left center;}
 .link_4{background: url("../images/link2_bg04.png") no-repeat left center;}
+
+
+
+
+
+
+
+
+/* footer영역 */
+#footer{
+    margin-top: 20px;
+}
+
+.f_top{
+    width: 100%;
+    height: 36px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background-color: #f4f4f4;
+}
+
+.f_inner{
+    width: 1164px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.f_gnb{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.f_gnb li a{
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+}
+.f_gnb li a:hover{
+    /* text-decoration: underline; */
+    color: #d2050c;
+}
+
+.f_middle{
+    width: 1164px;
+    margin: 0 auto;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.f_box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.f_box li{
+    width: 370px;
+    height: 127px;
+}
+
+.f_bottom{
+    width: 1164px;
+    margin: 0 auto;
+    padding-top: 20px;
+    position: relative;
+    height: 200px;
+}
+
+.f_menu{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.f_menu li{
+    background: url("../images/bar_footer_02.png") no-repeat right center;
+}
+
+.f_menu li:last-child{
+    background: none;
+}
+
+.f_menu li a{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+.f_menu li:first-child a{
+    padding-left: 0 !important;
+}
+
+.f_menu li a.f_p{
+    color: #d2050c;
+}
+
+.f_menu li a.f_site{
+    background: url("../images/arr_footer_down.png") no-repeat right center;
+    margin-right: 15px;
+}
+
+.f_menu li:hover a.f_site{
+    background: url("../images/arr_footer_up.png") no-repeat right center;
+}
+
+.f_C{
+    font-weight: lighter !important;
+    color: gray !important;
+}
+
+.company{
+    display: flex;
+    padding-top: 5px;
+}
+
+.company li{
+    background: url("../images/bar_footer_02.png") no-repeat right center;
+    padding: 0 20px;
+    font-size: 13px;
+    color: gray;
+    font-weight: lighter;
+}
+
+.company li:first-child{
+    padding-left: 0 !important;
+}
+
+.company li:last-child{
+    background: none;
+}
+
+.copy{
+    margin-top: 20px;
+    color: gray;
+    font-weight: lighter !important;
+    font-size: 13px;
+}
+
+.copy span{
+    color: #d2050c;
+    font-weight:lighter;
+}
+
+.f_bottom .award{
+    position: absolute;
+    bottom: 40px;
+    right: 210px;
+}
+
+.f_bottom .f_line{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+
+
+
+/* .address{
+    display: flex;
+    font-style: normal;
+    font-size: 13px;
+    color: gray;
+}
+
+.address p{
+    padding: 0 20px;
+}
+
+.address p:first-child{
+    padding-left: 0 !important;
+    background: url("../images/bar_footer_02.png") no-repeat right center;
+}
+
+.copy{
+    margin-top: 10px;
+    font-size: 12px;
+} */
+
+/* .f_bg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    height: 150px;
+    background: url("../images/img01.png") no-repeat right bottom;
+} */

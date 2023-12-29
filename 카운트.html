@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        .time{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid thistle;
+            margin: 100px auto;
+            text-align: center;
+            line-height: 200px;
+            font-size: 50px;
+            font-weight: bold;
+            color: pink;
+        }
+
+        .count{
+            width: 200px;
+            height: 50px;
+            border: 5px solid black;
+            margin: 0 auto;
+            text-align: center;
+            line-height: 50px;
+            font-size: 50px;
+            font-weight: bold;
+            color: lawngreen;
+        }
+    </style>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script lang="java">
+        $(function(){
+            var i;
+            setInterval(function(){
+
+                if(i < 100){
+                    i++;
+                }else{
+                    i=0;
+                }
+
+                $(".time").text(i);
+
+            }, 100) // 
+
+
+
+            var j=0;
+            setInterval(function(){
+                if(j < 5){
+                    j++;
+                }else{
+                    j=0;
+                    // location.href="http://www.naver.com";
+                }
+
+                console.log("j:", j)
+                $(".count").text("time:" + j);
+            }, 1000)
+
+            setTimeout(function(){
+                location.href="http://www.naver.com";
+            }, 5000)
+
+        })//
+    </script>
+</head>
+<body>
+    <div class="time"></div>
+
+    <div class="count"></div>
+</body>
+</html>
